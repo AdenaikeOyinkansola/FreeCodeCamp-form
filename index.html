@@ -14,11 +14,15 @@
         </div>
         <form id="survey-form">
             <p>Name</p>
-            <label id="name-label"><input id="name" type="text"placeholder="Enter your name"/></label>
+            <label id="name-label"><input id="name" type="text"placeholder="Enter your name" value="" name="name"/></label>
             <p>Email</p>
-            <label id="email-label"><input id="email" type="email"placeholder="Enter your email"/></label>
+            <label id="email-label">
+                <input id="email" type="email"placeholder="Enter your email" value="" name="email"/>
+            </label>
             <p>Age(Optional)</p>
-            <label id="number-label"><input id="number" type="number"min="13"max="100"placeholder="Age"/></Option></label>
+            <label id="number-label">
+                <input id="number" type="number" min="13" max="100" placeholder="Age" value="" name="number"/>
+            </label>
            <p>Option best describes your current role?</p>
             <label for="dropdown"> </label>
             <select id="dropdown" name="dropdown"class="drop" >
@@ -30,9 +34,9 @@
                 <option value="6">Other</option>
             </select>
            <p> Would you reccomend FreeCodeCamp to a friend?</p>
-            <label><input type="radio"value="value"class="inline"required>Definetly</label>
-            <label><input type="radio"value="value"class="inline"required>Maybe</label>
-            <label><input type="radio"value="value"class="inline"required>Not sure</label>
+            <label><input type="radio" value="Definitely" class="inline" name="recommend">Definitely</label>
+            <label><input type="radio" value="Maybe" class="inline" name="recommend">Maybe</label>
+            <label><input type="radio" value="Not sure" class="inline" name="recommend">Not sure</label>
             <p>What is your favorite feature of freeCodeCamp?</p>
             <label for="dropdown" ></label>
             <select id="dropdown" name="dropdown"class="opt">

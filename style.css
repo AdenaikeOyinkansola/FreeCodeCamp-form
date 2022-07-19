@@ -16,9 +16,7 @@ p {
 
 form{
     width: 50%;
-    margin: 120px auto;
-    padding-bottom:2em;
-    margin: 0,auto; 
+    margin: 50px auto;
     min-width: 400px;
     background: #111147;
     border-radius: 16px;
@@ -37,7 +35,7 @@ input,textarea,select{
 input,textarea{
     background-color: white;
     border: 1px solid rgb(13, 12, 34);
-    color: #ffffff;
+    color: rgb(13, 12, 34);
     width: 100%;
     padding: 8px 25px;
     font-size: 1.2rem;
